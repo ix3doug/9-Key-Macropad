@@ -1541,6 +1541,26 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 73.66) (xy 74.93 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41ef0bd4-56ae-49f0-a6fc-d8642bbed80f")
+	)
+	(wire
+		(pts
+			(xy 110.49 62.23) (xy 119.38 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44acfc45-04c2-4aff-9044-3cfa5f0f6c15")
+	)
+	(wire
+		(pts
 			(xy 259.08 116.84) (xy 261.62 116.84)
 		)
 		(stroke
@@ -1648,6 +1668,16 @@
 			(type default)
 		)
 		(uuid "624bf38a-dcc0-447a-81d6-675981f41555")
+	)
+	(wire
+		(pts
+			(xy 110.49 54.61) (xy 119.38 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6341ec9e-c42c-4402-a3b7-421715b48c79")
 	)
 	(wire
 		(pts
@@ -1881,16 +1911,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 73.66) (xy 74.93 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcfb3d58-a2b0-41b5-bbf5-7d8622fb0fc8")
-	)
-	(wire
-		(pts
 			(xy 264.16 77.47) (xy 264.16 80.01)
 		)
 		(stroke
@@ -2041,7 +2061,7 @@
 	)
 	(global_label "KEY3"
 		(shape input)
-		(at 66.04 58.42 180)
+		(at 66.04 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2051,7 +2071,7 @@
 		)
 		(uuid "026f508e-ee3e-45de-ad93-4383ad28a909")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.3377 58.42 0)
+			(at 58.3377 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2063,7 +2083,7 @@
 	)
 	(global_label "KEY5"
 		(shape input)
-		(at 66.04 66.04 180)
+		(at 66.04 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2073,7 +2093,7 @@
 		)
 		(uuid "05a4bf89-c41b-4f82-b452-c2ba2dd6fa6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.3377 66.04 0)
+			(at 58.3377 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2217,22 +2237,22 @@
 	)
 	(global_label "KEY9"
 		(shape input)
-		(at 119.38 66.04 0)
+		(at 66.04 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "240737af-e7f1-4891-86b1-7c646ecb9db7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.0823 66.04 0)
+			(at 58.3377 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2349,66 +2369,66 @@
 	)
 	(global_label "KEY1"
 		(shape input)
-		(at 66.04 50.8 180)
+		(at 119.38 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "4e7c7ba4-5bb3-41b8-8817-287c040bc109")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.3377 50.8 0)
+			(at 127.0823 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "NEOPIX"
 		(shape input)
-		(at 66.04 73.66 180)
+		(at 119.38 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "51308d70-5174-4848-a97a-352d023be5f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.1605 73.66 0)
+			(at 129.2595 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "KEY4"
 		(shape input)
-		(at 66.04 62.23 180)
+		(at 119.38 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "537f1f3d-5597-45ab-ad77-371704fdd59f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.3377 62.23 0)
+			(at 127.0823 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2459,7 +2479,7 @@
 	)
 	(global_label "KEY2"
 		(shape input)
-		(at 66.04 54.61 180)
+		(at 66.04 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2469,7 +2489,7 @@
 		)
 		(uuid "5acf1cce-2cb9-44a8-8951-2e827f68c25e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.3377 54.61 0)
+			(at 58.3377 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2547,7 +2567,7 @@
 	)
 	(global_label "KEY6"
 		(shape input)
-		(at 66.04 69.85 180)
+		(at 66.04 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2557,7 +2577,7 @@
 		)
 		(uuid "85796123-08e1-47ee-8069-378771338d21")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.3377 69.85 0)
+			(at 58.3377 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2745,22 +2765,22 @@
 	)
 	(global_label "KEY8"
 		(shape input)
-		(at 119.38 69.85 0)
+		(at 66.04 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "f42ac724-2f6f-4f52-a0c0-64c5ac8f2bde")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.0823 69.85 0)
+			(at 58.3377 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2982,6 +3002,73 @@
 			(project ""
 				(path "/0b4684c2-cd12-489a-abb2-8fa358bb7cf8"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 119.38 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "059a71e8-62a2-43b6-abd9-82b648f97b5b")
+		(property "Reference" "#PWR012"
+			(at 125.73 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 123.19 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 119.38 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66be8807-ef6d-4b89-94d8-86a259a7fb80")
+		)
+		(instances
+			(project ""
+				(path "/0b4684c2-cd12-489a-abb2-8fa358bb7cf8"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)

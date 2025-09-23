@@ -99,20 +99,19 @@
 	(net 19 "KEY8")
 	(net 20 "KEY9")
 	(net 21 "3V3")
-	(net 22 "unconnected-(U1-GPIO3{slash}MOSI-Pad11)")
-	(net 23 "NEOPIX")
-	(net 24 "unconnected-(U1-GND-Pad13)")
-	(net 25 "unconnected-(D9-DOUT-Pad1)")
+	(net 22 "NEOPIX")
+	(net 23 "unconnected-(D9-DOUT-Pad1)")
+	(net 24 "unconnected-(U1-GPIO26{slash}ADC0{slash}A0-Pad1)")
 	(footprint "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 		(layer "F.Cu")
 		(uuid "0956d1b0-b2bb-4472-9184-0a7867ee5b35")
-		(at 98.453 112.762 180)
+		(at 99.675 132.279 180)
 		(descr "3.5mm x 3.5mm PLCC4 Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf")
 		(tags "LED RGB NeoPixel Mini PLCC-4 3535")
 		(property "Reference" "D8"
 			(at 0 -2.75 0)
 			(layer "F.SilkS")
-			(uuid "2381fa73-5d1e-45f4-a656-61957dc2be88")
+			(uuid "9fef0661-f909-44ad-8293-0c6e21926d1a")
 			(effects
 				(font
 					(size 1 1)
@@ -123,7 +122,7 @@
 		(property "Value" "SK6812MINI"
 			(at 0 3.25 0)
 			(layer "F.Fab")
-			(uuid "f3fe145c-cc57-4333-bd22-0384f6f9a659")
+			(uuid "55d350cf-90c5-4310-8ee9-3145bd30674c")
 			(effects
 				(font
 					(size 1 1)
@@ -136,7 +135,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "739480e4-7209-4066-a825-4e51059fe9e5")
+			(uuid "da966c82-24ba-4e12-91d3-81ae85917451")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -149,7 +148,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "12ce2dc5-cf8c-409a-8c05-d0b6eb53e2f8")
+			(uuid "d771c985-956a-4045-b4fe-13b7591087da")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -388,13 +387,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 		(layer "F.Cu")
 		(uuid "0c59e013-9574-4476-8ea8-8317904bdf4a")
-		(at 76.863 123.938 180)
+		(at 78.085 143.455 180)
 		(descr "Cherry MX keyswitch, 1.00u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u plate")
 		(property "Reference" "SW7"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "c4b7f3f5-29ba-471e-b628-061628e8ea41")
+			(uuid "4a46f3a5-e554-4cac-8f36-4a487cdeb92b")
 			(effects
 				(font
 					(size 1 1)
@@ -405,7 +404,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "26765259-fe01-4778-b0b0-d62fa5bdc9d5")
+			(uuid "2f205a91-cbb3-4e73-a238-253df797c34e")
 			(effects
 				(font
 					(size 1 1)
@@ -418,7 +417,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e5cb6f50-a426-432a-a629-075ee34fef44")
+			(uuid "2289b4f0-97c9-480d-b667-976d9a24910f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -431,7 +430,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1a3c93aa-cf91-4c54-9346-8cd43eaaf56e")
+			(uuid "0c7066fd-ee43-4249-a9ac-8f0f09359977")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -659,13 +658,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 		(layer "F.Cu")
 		(uuid "0cb9bed5-1b34-4cc2-be16-7458f221ff91")
-		(at 76.863 104.888 180)
+		(at 78.085 124.405 180)
 		(descr "Cherry MX keyswitch, 1.00u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u plate")
 		(property "Reference" "SW4"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "634d56e9-1a85-4bdd-b7aa-0822c488cd39")
+			(uuid "b0a01e83-f2ff-4c48-8ad2-1a59f1d31c88")
 			(effects
 				(font
 					(size 1 1)
@@ -676,7 +675,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "a9aa4147-6175-4c4c-aa2b-09c07d6f624d")
+			(uuid "872a7654-79ad-405d-924c-c0973ea418d0")
 			(effects
 				(font
 					(size 1 1)
@@ -689,7 +688,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f99867af-ba08-4194-90b5-93fa02056fd7")
+			(uuid "813bba67-3634-4f61-8409-cc78de227ff5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -702,7 +701,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "80900dce-e849-4131-8b23-f8fad7ca4ef0")
+			(uuid "0ffe15f3-a08d-4d5d-951a-56c6d821425b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -930,13 +929,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 		(layer "F.Cu")
 		(uuid "2274e102-33e2-4676-a249-1d82339773ef")
-		(at 95.913 123.938 180)
+		(at 97.135 143.455 180)
 		(descr "Cherry MX keyswitch, 1.00u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u plate")
 		(property "Reference" "SW8"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "af5746db-abd2-45bc-8f8b-1e40c2d14f62")
+			(uuid "cf56be9c-9047-42b1-b5fe-afe398139369")
 			(effects
 				(font
 					(size 1 1)
@@ -947,7 +946,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "4e3581d8-c2f1-4b71-aed3-cf25a1ec8902")
+			(uuid "46df11d3-1b11-4450-b1f1-9c06637176b7")
 			(effects
 				(font
 					(size 1 1)
@@ -960,7 +959,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ce6ad02b-a187-4a1d-8d7b-51cad519e818")
+			(uuid "7557b950-e608-4d5d-a68f-0aab61ebddad")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -973,7 +972,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f2bfdf73-7057-4906-93d5-a215472633bd")
+			(uuid "ac653882-a15d-4105-a583-04e665cd9d05")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1201,13 +1200,13 @@
 	(footprint "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 		(layer "F.Cu")
 		(uuid "2bd20cdd-ff78-4550-8d31-f21cc5d26bde")
-		(at 117.503 112.762 180)
+		(at 118.725 132.279 180)
 		(descr "3.5mm x 3.5mm PLCC4 Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf")
 		(tags "LED RGB NeoPixel Mini PLCC-4 3535")
 		(property "Reference" "D9"
 			(at 0 -2.75 0)
 			(layer "F.SilkS")
-			(uuid "dfdeaa86-2adf-498a-9f31-4c58d60f1c74")
+			(uuid "3bbed117-8624-4e43-b59a-ffe0d7b5bd9f")
 			(effects
 				(font
 					(size 1 1)
@@ -1218,7 +1217,7 @@
 		(property "Value" "SK6812MINI"
 			(at 0 3.25 0)
 			(layer "F.Fab")
-			(uuid "9a28c8ef-05bb-48c7-b21a-99d4f7027647")
+			(uuid "210dd4c5-65ff-4516-9aec-66011bb0e67c")
 			(effects
 				(font
 					(size 1 1)
@@ -1231,7 +1230,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8f72057d-956d-4176-8612-faa1e51c33c8")
+			(uuid "36de2b50-b2c6-4cc2-9c65-7c01b7f00bc8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1244,7 +1243,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6c445a91-fdea-4a44-bbd3-a5af2472cccb")
+			(uuid "393fe8ca-ccd7-4da0-b842-6fcce98fcfbf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1435,7 +1434,7 @@
 			(at -1.75 -0.875 180)
 			(size 1.6 0.85)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 25 "unconnected-(D9-DOUT-Pad1)")
+			(net 23 "unconnected-(D9-DOUT-Pad1)")
 			(pinfunction "DOUT")
 			(pintype "output")
 			(uuid "3a2c3e80-c07b-4e07-b85d-046b1625a227")
@@ -1483,13 +1482,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 		(layer "F.Cu")
 		(uuid "3e102b63-982c-4d6d-85bc-c8417fda44b9")
-		(at 95.913 104.888 180)
+		(at 97.135 124.405 180)
 		(descr "Cherry MX keyswitch, 1.00u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u plate")
 		(property "Reference" "SW5"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "d42f0b5d-0936-4826-8f9f-1529d926cee9")
+			(uuid "2c8aa0ad-5b75-4a5a-8447-79f003f991c4")
 			(effects
 				(font
 					(size 1 1)
@@ -1500,7 +1499,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "f9011975-79fb-47fb-9218-b17417376dc7")
+			(uuid "e88a56a0-0af3-4a9a-b100-0d4e48447dfe")
 			(effects
 				(font
 					(size 1 1)
@@ -1513,7 +1512,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "19c66345-07e1-49d6-9109-2933088f838a")
+			(uuid "cd08d586-c588-4902-9e4f-718ba78d3e54")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1526,7 +1525,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1dbfb452-72d7-4daa-b4c0-35081c82d971")
+			(uuid "83b712cf-a1b5-4e69-afd7-8542b2400cec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1754,13 +1753,13 @@
 	(footprint "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 		(layer "F.Cu")
 		(uuid "4248340f-30f2-4d0a-81d4-51709369c98c")
-		(at 117.503 74.662 180)
+		(at 118.725 94.179 180)
 		(descr "3.5mm x 3.5mm PLCC4 Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf")
 		(tags "LED RGB NeoPixel Mini PLCC-4 3535")
 		(property "Reference" "D2"
 			(at 0 -2.75 0)
 			(layer "F.SilkS")
-			(uuid "6fe032e9-73c8-4826-94d9-74e5e9c2786c")
+			(uuid "d14be23f-6163-47f8-a969-bd27cff70763")
 			(effects
 				(font
 					(size 1 1)
@@ -1771,7 +1770,7 @@
 		(property "Value" "SK6812MINI"
 			(at 0 3.25 0)
 			(layer "F.Fab")
-			(uuid "c616e5db-4094-4411-8cd4-5bbf71ee1405")
+			(uuid "8ab54b8b-fbea-4ae1-8e37-dff2e5544a37")
 			(effects
 				(font
 					(size 1 1)
@@ -1784,7 +1783,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b7d51690-e6f7-449b-b677-c9e5da334ab5")
+			(uuid "6d226fab-477f-4dcb-aa6c-302a6358890a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1797,7 +1796,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "495691f9-fe31-4a6e-a995-72e2b2a845a1")
+			(uuid "7cdba96a-228a-4ddc-8dcb-3c344ec172a4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2036,13 +2035,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 		(layer "F.Cu")
 		(uuid "46f60bf1-06e7-4780-bd6a-8a5127efb416")
-		(at 76.863 85.838 180)
+		(at 78.085 105.355 180)
 		(descr "Cherry MX keyswitch, 1.00u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u plate")
 		(property "Reference" "SW1"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "e4d132c2-6742-4d96-9001-481173eadff2")
+			(uuid "a20e1ecf-fc40-4713-aea4-6f82c12a287e")
 			(effects
 				(font
 					(size 1 1)
@@ -2053,7 +2052,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "31f9e2c4-17b9-4f8a-a475-a2f4c62f6c47")
+			(uuid "836f3295-a3b0-42b0-bcc5-f90bb3ff566c")
 			(effects
 				(font
 					(size 1 1)
@@ -2066,7 +2065,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "809ab3ea-5047-44a1-92e0-f306030ad652")
+			(uuid "b05d62fc-4e41-4a08-a5b0-de7610a314e0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2079,7 +2078,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1575d501-3a44-48bf-a851-5a148ae0bdec")
+			(uuid "5edcc7d3-2d5c-43c2-98ac-054a7f9ebfbf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2307,13 +2306,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 		(layer "F.Cu")
 		(uuid "486e1f1b-b2ce-4675-8d52-814af2ad6958")
-		(at 114.963 85.838 180)
+		(at 116.185 105.355 180)
 		(descr "Cherry MX keyswitch, 1.00u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u plate")
 		(property "Reference" "SW3"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "ced07cf7-af8d-44a2-9237-def2aa922109")
+			(uuid "56bb6019-c006-41c9-ac39-ac9b190e435c")
 			(effects
 				(font
 					(size 1 1)
@@ -2324,7 +2323,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "a7d645dc-efc6-4d4f-a281-9b85d287e571")
+			(uuid "c4a01b79-9df2-4eb9-b7db-95620cf90f2a")
 			(effects
 				(font
 					(size 1 1)
@@ -2337,7 +2336,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6ca64395-e754-43df-8949-2404bc1f799e")
+			(uuid "a415f073-0ed2-4e4d-8e37-1f7ee4e35d38")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2350,7 +2349,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "de717491-3de4-4e45-b2e6-167f144a2867")
+			(uuid "22aabeda-fc8a-4da7-8679-803b361bc4e3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2578,13 +2577,13 @@
 	(footprint "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 		(layer "F.Cu")
 		(uuid "53d3556b-fe00-414a-b4b1-d7032ccedfc9")
-		(at 98.453 93.712 180)
+		(at 99.675 113.229 180)
 		(descr "3.5mm x 3.5mm PLCC4 Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf")
 		(tags "LED RGB NeoPixel Mini PLCC-4 3535")
 		(property "Reference" "D5"
 			(at 0 -2.75 0)
 			(layer "F.SilkS")
-			(uuid "c67846c4-b102-4549-8abc-9ecd40e89813")
+			(uuid "b0ad3a5c-a72d-4cd7-8fb1-7f13b2cddab0")
 			(effects
 				(font
 					(size 1 1)
@@ -2595,7 +2594,7 @@
 		(property "Value" "SK6812MINI"
 			(at 0 3.25 0)
 			(layer "F.Fab")
-			(uuid "86c72ede-f8e9-4e53-9d4d-df934d815c7c")
+			(uuid "5c340cc8-17bd-4393-aa6c-c0092b7faf04")
 			(effects
 				(font
 					(size 1 1)
@@ -2608,7 +2607,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "37a1c4e7-68ec-4e50-bcfe-47f669e54ea2")
+			(uuid "2abcc85c-e685-4841-a1fd-952b45ffa7e6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2621,7 +2620,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ea1371ca-d095-4039-b39c-ad0fea84fa45")
+			(uuid "a677c2de-690d-409e-afbc-84d404654f3f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2860,13 +2859,13 @@
 	(footprint "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 		(layer "F.Cu")
 		(uuid "546b692a-16c3-4cba-bd28-92df29fcbadf")
-		(at 79.403 112.762 180)
+		(at 80.625 132.279 180)
 		(descr "3.5mm x 3.5mm PLCC4 Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf")
 		(tags "LED RGB NeoPixel Mini PLCC-4 3535")
 		(property "Reference" "D7"
 			(at 0 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "4ed4964f-4bb0-41fc-8757-650f4a8b2e30")
+			(uuid "ccda178d-bc9d-41f2-92b2-532f3615ba0e")
 			(effects
 				(font
 					(size 1 1)
@@ -2877,7 +2876,7 @@
 		(property "Value" "SK6812MINI"
 			(at 0 3.25 0)
 			(layer "F.Fab")
-			(uuid "78eed0dc-1086-45e9-91d3-eb3088928d33")
+			(uuid "fcf690f4-5982-4c05-98db-7d9dfa512ff5")
 			(effects
 				(font
 					(size 1 1)
@@ -2890,7 +2889,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bdff4f17-608a-469d-8d6b-8701bae54c17")
+			(uuid "819dd9db-78ef-43b7-826a-815ecfa1e49c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2903,7 +2902,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c9affab3-43e4-4c0d-b721-7914c5fe601f")
+			(uuid "6c42cffd-aa95-43fc-88f9-379aa0d96c3b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3142,13 +3141,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 		(layer "F.Cu")
 		(uuid "65b9db00-6a9d-4eb4-8a89-fa9ba51a4a06")
-		(at 114.963 123.938 180)
+		(at 116.185 143.455 180)
 		(descr "Cherry MX keyswitch, 1.00u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u plate")
 		(property "Reference" "SW9"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "e9c74f11-7ed4-4739-9c7b-1909582fce88")
+			(uuid "c230405c-e8a5-495e-b605-12917e69790f")
 			(effects
 				(font
 					(size 1 1)
@@ -3159,7 +3158,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "5c925540-0b9d-448e-9f8f-426ff0c3ed71")
+			(uuid "53c64fb9-0621-449c-ae6f-d251bc1b0add")
 			(effects
 				(font
 					(size 1 1)
@@ -3172,7 +3171,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b1194a28-423d-4ccf-9718-1eda767d1d12")
+			(uuid "f226fdde-97ec-4a57-93a1-27b6eaacf938")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,7 +3184,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "15e91cc9-2454-4607-8a9c-7df1de9f1289")
+			(uuid "892cd1a9-9f3a-4553-bfa1-138d3cddef27")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3413,13 +3412,13 @@
 	(footprint "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 		(layer "F.Cu")
 		(uuid "7edfb51f-3e74-47f9-8360-8529f09aa20c")
-		(at 117.503 93.712 180)
+		(at 118.725 113.229 180)
 		(descr "3.5mm x 3.5mm PLCC4 Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf")
 		(tags "LED RGB NeoPixel Mini PLCC-4 3535")
 		(property "Reference" "D6"
 			(at 0 -2.75 0)
 			(layer "F.SilkS")
-			(uuid "7c3e1a1d-f707-44fe-b532-f8aa5a26c964")
+			(uuid "a7f6f475-d39a-490f-9062-807a57810d20")
 			(effects
 				(font
 					(size 1 1)
@@ -3430,7 +3429,7 @@
 		(property "Value" "SK6812MINI"
 			(at 0 3.415 0)
 			(layer "F.Fab")
-			(uuid "6a60f788-beff-4dca-9bd4-c5391e1ca6ea")
+			(uuid "6f67c2d7-4688-46f4-9fae-9644bb848933")
 			(effects
 				(font
 					(size 1 1)
@@ -3443,7 +3442,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a25a4217-aee8-49ef-9477-ad46c1f28f2b")
+			(uuid "4bf570af-860b-48c9-8d95-81447ef805c2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3456,7 +3455,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b4ca43cc-738c-4670-9b09-78677697452f")
+			(uuid "e27ca998-b510-462d-bc23-79ba6991f27c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3695,13 +3694,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 		(layer "F.Cu")
 		(uuid "b90d2828-3ac2-4cd5-8e39-15bc15959a27")
-		(at 95.913 85.838 180)
+		(at 97.135 105.355 180)
 		(descr "Cherry MX keyswitch, 1.00u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u plate")
 		(property "Reference" "SW2"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "f3e9e2a6-b10d-4751-b551-acde753c7b23")
+			(uuid "1c4a467c-814d-418d-a731-ed7e35eef4e7")
 			(effects
 				(font
 					(size 1 1)
@@ -3712,7 +3711,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "79b2b21c-a1ba-4d57-90e7-c7a50a02c744")
+			(uuid "693e0453-d541-4102-9540-ee7a4e2c2d8f")
 			(effects
 				(font
 					(size 1 1)
@@ -3725,7 +3724,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d11378be-d062-4ab5-a113-0b4533549514")
+			(uuid "77f963b3-f87b-4a6a-9fc6-ca0d9ae6cf55")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3738,7 +3737,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "478396c1-79d7-4c29-a95a-9f425c8422a0")
+			(uuid "eb0d7226-775d-424a-bddb-67f5aea55201")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3966,13 +3965,13 @@
 	(footprint "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 		(layer "F.Cu")
 		(uuid "b9719850-3933-425e-8507-314f094c62aa")
-		(at 79.403 74.662 180)
+		(at 80.625 94.179 180)
 		(descr "3.5mm x 3.5mm PLCC4 Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf")
 		(tags "LED RGB NeoPixel Mini PLCC-4 3535")
 		(property "Reference" "D1"
 			(at 0 -2.75 0)
 			(layer "F.SilkS")
-			(uuid "afb53073-c87c-4bf4-9b1a-a300e7ec8d3a")
+			(uuid "de42ac2a-82a7-4348-b525-360f8a106904")
 			(effects
 				(font
 					(size 1 1)
@@ -3983,7 +3982,7 @@
 		(property "Value" "SK6812MINI"
 			(at 0 3.25 0)
 			(layer "F.Fab")
-			(uuid "2811bbdf-8c93-48ba-85ec-0d50f5110cbc")
+			(uuid "1a5a3848-bbf5-4a5d-97d0-7a759d891770")
 			(effects
 				(font
 					(size 1 1)
@@ -3996,7 +3995,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d9f0026d-cc91-4667-aa80-bdbc18212219")
+			(uuid "7adb037a-f4d9-4e17-94d7-8880658d9ff9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4009,7 +4008,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "77c28bbf-a85d-484e-9a12-35bbf07e576e")
+			(uuid "6b37ac81-1ee6-4af1-8799-add35dd3b1f4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4248,13 +4247,13 @@
 	(footprint "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 		(layer "F.Cu")
 		(uuid "bb2fc33a-10b4-4cb0-a3dc-135a76cfa01a")
-		(at 79.403 93.712 180)
+		(at 80.625 113.229 180)
 		(descr "3.5mm x 3.5mm PLCC4 Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf")
 		(tags "LED RGB NeoPixel Mini PLCC-4 3535")
 		(property "Reference" "D4"
 			(at 0 -2.75 0)
 			(layer "F.SilkS")
-			(uuid "9b2f96da-7e79-45aa-932f-babbd2aeaffb")
+			(uuid "c094bf38-e1dc-40cd-969e-b6b93acbdc03")
 			(effects
 				(font
 					(size 1 1)
@@ -4265,7 +4264,7 @@
 		(property "Value" "SK6812MINI"
 			(at 0 3.25 0)
 			(layer "F.Fab")
-			(uuid "3863fb98-440a-4081-8320-dd61deaace5a")
+			(uuid "cc7aa0c5-6e82-4a60-a4ec-dc2e346aa792")
 			(effects
 				(font
 					(size 1 1)
@@ -4278,7 +4277,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ebf4e2d4-1c14-4ea1-81fb-c07addf15662")
+			(uuid "4dca610f-f1cf-40d9-914e-47d4298acf7e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4291,7 +4290,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b66a20f1-89d2-48fa-9e85-6e6c177c8cd0")
+			(uuid "e010f24f-964a-4474-820d-cd3bd7504dc9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4530,13 +4529,13 @@
 	(footprint "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 		(layer "F.Cu")
 		(uuid "e28c4b6c-f087-4345-89d5-dd2acd9c64ca")
-		(at 98.453 74.662 180)
+		(at 99.675 94.179 180)
 		(descr "3.5mm x 3.5mm PLCC4 Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf")
 		(tags "LED RGB NeoPixel Mini PLCC-4 3535")
 		(property "Reference" "D3"
 			(at 0 -2.75 0)
 			(layer "F.SilkS")
-			(uuid "11151200-bd5f-4958-a785-b920b32d5638")
+			(uuid "36e9cb7d-a587-4477-94a3-348a259cdd1f")
 			(effects
 				(font
 					(size 1 1)
@@ -4547,7 +4546,7 @@
 		(property "Value" "SK6812MINI"
 			(at 0 3.25 0)
 			(layer "F.Fab")
-			(uuid "0db50534-fc4e-4d6a-8f53-5ff966f8f749")
+			(uuid "3e9a44ba-8b69-4a2e-b568-1b5c68262432")
 			(effects
 				(font
 					(size 1 1)
@@ -4560,7 +4559,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "59dd8be9-430f-4fdd-8796-57d9d3f931a4")
+			(uuid "6519d6b9-b13c-4dcf-8797-36b677d1b8f4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4573,7 +4572,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6e7602fe-e0e1-4b48-bd6e-cb158371a288")
+			(uuid "6aad3c69-0fba-49ec-a354-6971e4480526")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4812,13 +4811,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 		(layer "F.Cu")
 		(uuid "ecacecd9-f8ee-4d8f-b501-434ac13c4b80")
-		(at 114.963 104.888 180)
+		(at 116.185 124.405 180)
 		(descr "Cherry MX keyswitch, 1.00u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u plate")
 		(property "Reference" "SW6"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "39a2d7e4-d382-42a4-beda-00f00df63931")
+			(uuid "53aae378-f94e-42b0-8d57-4a6c9e0130df")
 			(effects
 				(font
 					(size 1 1)
@@ -4829,7 +4828,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "4dfeb1b5-fb77-4bfc-861e-d76138e593d9")
+			(uuid "355f5a12-16c5-4110-80ba-aa8c36e4e0a4")
 			(effects
 				(font
 					(size 1 1)
@@ -4842,7 +4841,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "567e7665-0c65-4357-8e5a-8fcf0483dc81")
+			(uuid "de3ee2c3-d0b9-439c-81c7-f550cd390975")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4855,7 +4854,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "05388851-d1cf-4de1-bba1-d652dfb4319b")
+			(uuid "c1a57bc8-ac24-4e5f-900e-09fcd19a9f6b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5084,7 +5083,7 @@
 		(locked yes)
 		(layer "B.Cu")
 		(uuid "754967da-a56a-4a44-ad2e-b267c7a911a9")
-		(at 98.453 83.298 180)
+		(at 99.675 102.815 180)
 		(property "Reference" "U1"
 			(at -8.5 12 0)
 			(unlocked yes)
@@ -5349,7 +5348,7 @@
 			(size 2.432 1.524)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.1)
-			(net 12 "KEY1")
+			(net 24 "unconnected-(U1-GPIO26{slash}ADC0{slash}A0-Pad1)")
 			(pinfunction "GPIO26/ADC0/A0")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -5361,7 +5360,7 @@
 			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 12 "KEY1")
+			(net 24 "unconnected-(U1-GPIO26{slash}ADC0{slash}A0-Pad1)")
 			(pinfunction "GPIO26/ADC0/A0")
 			(pintype "passive")
 			(uuid "6d9220ac-2b97-426d-8b81-759e7cbcb06a")
@@ -5371,7 +5370,7 @@
 			(size 2.432 1.524)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.1)
-			(net 13 "KEY2")
+			(net 14 "KEY3")
 			(pinfunction "GPIO27/ADC1/A1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -5383,7 +5382,7 @@
 			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 13 "KEY2")
+			(net 14 "KEY3")
 			(pinfunction "GPIO27/ADC1/A1")
 			(pintype "passive")
 			(uuid "5b779a2c-13e7-4739-bb34-0dccd0c46550")
@@ -5393,7 +5392,7 @@
 			(size 2.432 1.524)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.1)
-			(net 14 "KEY3")
+			(net 17 "KEY6")
 			(pinfunction "GPIO28/ADC2/A2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -5405,7 +5404,7 @@
 			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 14 "KEY3")
+			(net 17 "KEY6")
 			(pinfunction "GPIO28/ADC2/A2")
 			(pintype "passive")
 			(uuid "3b402a55-796b-41f4-901f-8d057afdb367")
@@ -5415,7 +5414,7 @@
 			(size 2.432 1.524)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.1)
-			(net 15 "KEY4")
+			(net 20 "KEY9")
 			(pinfunction "GPIO29/ADC3/A3")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -5427,7 +5426,7 @@
 			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 15 "KEY4")
+			(net 20 "KEY9")
 			(pinfunction "GPIO29/ADC3/A3")
 			(pintype "passive")
 			(uuid "70aa8935-08d4-46c7-8293-c49b22568001")
@@ -5437,7 +5436,7 @@
 			(size 2.432 1.524)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.1)
-			(net 16 "KEY5")
+			(net 19 "KEY8")
 			(pinfunction "GPIO6/SDA")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -5449,7 +5448,7 @@
 			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 16 "KEY5")
+			(net 19 "KEY8")
 			(pinfunction "GPIO6/SDA")
 			(pintype "passive")
 			(uuid "ada579b2-66e7-416d-bfab-10f93866e1b4")
@@ -5459,7 +5458,7 @@
 			(size 2.432 1.524)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.1)
-			(net 17 "KEY6")
+			(net 16 "KEY5")
 			(pinfunction "GPIO7/SCL")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -5471,7 +5470,7 @@
 			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 17 "KEY6")
+			(net 16 "KEY5")
 			(pinfunction "GPIO7/SCL")
 			(pintype "passive")
 			(uuid "8bc5ca48-58de-4eb5-900e-5cf28acd8f24")
@@ -5481,7 +5480,7 @@
 			(size 2.432 1.524)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.1)
-			(net 23 "NEOPIX")
+			(net 13 "KEY2")
 			(pinfunction "GPIO0/TX")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -5493,7 +5492,7 @@
 			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 23 "NEOPIX")
+			(net 13 "KEY2")
 			(pinfunction "GPIO0/TX")
 			(pintype "passive")
 			(uuid "d8c78588-6c3d-4e8a-acba-b8c9cdbbf3b8")
@@ -5526,7 +5525,7 @@
 			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 19 "KEY8")
+			(net 15 "KEY4")
 			(pinfunction "GPIO2/SCK")
 			(pintype "passive")
 			(uuid "81ba259d-6f55-416f-af5f-a4670accb433")
@@ -5536,7 +5535,7 @@
 			(size 2.432 1.524)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.1)
-			(net 19 "KEY8")
+			(net 15 "KEY4")
 			(pinfunction "GPIO2/SCK")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -5548,7 +5547,7 @@
 			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 20 "KEY9")
+			(net 12 "KEY1")
 			(pinfunction "GPIO4/MISO")
 			(pintype "passive")
 			(uuid "2d447e04-af2e-42b5-b9f6-04cd94b81f6d")
@@ -5558,7 +5557,7 @@
 			(size 2.432 1.524)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.1)
-			(net 20 "KEY9")
+			(net 12 "KEY1")
 			(pinfunction "GPIO4/MISO")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -5570,7 +5569,7 @@
 			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 22 "unconnected-(U1-GPIO3{slash}MOSI-Pad11)")
+			(net 22 "NEOPIX")
 			(pinfunction "GPIO3/MOSI")
 			(pintype "passive")
 			(uuid "b675102b-14f0-4ee7-816b-e705f69fde53")
@@ -5580,7 +5579,7 @@
 			(size 2.432 1.524)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.1)
-			(net 22 "unconnected-(U1-GPIO3{slash}MOSI-Pad11)")
+			(net 22 "NEOPIX")
 			(pinfunction "GPIO3/MOSI")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -5614,7 +5613,7 @@
 			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 24 "unconnected-(U1-GND-Pad13)")
+			(net 4 "GNDD")
 			(pinfunction "GND")
 			(pintype "passive")
 			(uuid "f782cd6d-ec7f-4493-8dc8-d2235b4d6b14")
@@ -5624,7 +5623,7 @@
 			(size 2.432 1.524)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.1)
-			(net 24 "unconnected-(U1-GND-Pad13)")
+			(net 4 "GNDD")
 			(pinfunction "GND")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -5716,11 +5715,11 @@
 	(footprint "SN74AHCT1G125DBVR:SOT95P280X145-5N"
 		(layer "B.Cu")
 		(uuid "871ab477-9d0c-46f2-b6f8-039105705057")
-		(at 72.225 77.441 90)
+		(at 73.447 96.958 90)
 		(property "Reference" "U2"
 			(at -0.06 2.508 90)
 			(layer "B.SilkS")
-			(uuid "336ddbf3-5ec1-4e6e-b65b-be510f2b9796")
+			(uuid "7ebee585-cafd-4d99-9b0b-b31d3dafb36a")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -5732,7 +5731,7 @@
 		(property "Value" "74AHCT1G125"
 			(at -2.682 -2.474 90)
 			(layer "B.Fab")
-			(uuid "f96a0fc6-0a19-4dbc-b675-37377037c532")
+			(uuid "d83d65f0-d021-4406-b530-3804224efc90")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -5745,7 +5744,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "851f2239-d231-4785-a106-62b4aca65e80")
+			(uuid "bcefa664-1e51-4f1c-8e89-7d5fc8e61b55")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5758,7 +5757,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0cab4697-5dc5-4a3e-8d35-b93efbba8d2f")
+			(uuid "9eae52fe-f510-44c3-b814-14419e2ea1f3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5919,7 +5918,7 @@
 			(size 1.21 0.59)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 23 "NEOPIX")
+			(net 22 "NEOPIX")
 			(pintype "input")
 			(solder_mask_margin 0.102)
 			(uuid "f70ddeb0-bc9b-4ccb-ae8f-240614e50371")
@@ -5959,15 +5958,355 @@
 		(embedded_fonts no)
 	)
 	(gr_rect
-		(start 69.751 71.106)
-		(end 127.155 128.51)
+		(start 71.1 90.75)
+		(end 128.25 147.9)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "680d0f9e-4745-4f93-bcb2-c7ef1a4075fe")
+		(uuid "567738d1-9d38-495b-9d59-52faada294b4")
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Edge.Cuts")
+		(uuid "c5a9dc20-2a88-457a-a54d-fc467c05964c")
+		(pts
+			(xy 71.1 147.9) (xy 128.25 147.9)
+		)
+		(height 9.539)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "57.15"
+			(at 99.675 156.289 0)
+			(layer "Edge.Cuts")
+			(uuid "c5a9dc20-2a88-457a-a54d-fc467c05964c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Edge.Cuts")
+		(uuid "fa3f859b-4803-45fb-83fc-8addc1e7c570")
+		(pts
+			(xy 71.1 147.9) (xy 71.1 90.75)
+		)
+		(height -12.982)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "57.15"
+			(at 56.968 119.325 90)
+			(layer "Edge.Cuts")
+			(uuid "fa3f859b-4803-45fb-83fc-8addc1e7c570")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(segment
+		(start 92.055 95.195)
+		(end 74.905 95.195)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "779cc898-e17e-4039-9b9b-1ff0035863e2")
+	)
+	(segment
+		(start 74.905 95.195)
+		(end 74.397 95.703)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "988ab4f2-f725-437d-8310-39e1905d6932")
+	)
+	(segment
+		(start 78.085 105.355)
+		(end 92.055 105.355)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 12)
+		(uuid "8d8a0cd0-fce6-4d46-99f7-6f58cc1971eb")
+	)
+	(segment
+		(start 97.135 105.355)
+		(end 102.215 110.435)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 13)
+		(uuid "57efdc13-482a-40af-baa6-cab9578ce649")
+	)
+	(segment
+		(start 102.215 110.435)
+		(end 107.295 110.435)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 13)
+		(uuid "bb6b334e-2b41-41f2-a5e0-2e107044f180")
+	)
+	(segment
+		(start 115.945 105.115)
+		(end 116.185 105.355)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 14)
+		(uuid "3541bcda-3fc8-4b47-9408-aa8d250cfcc7")
+	)
+	(segment
+		(start 116.044 105.496)
+		(end 116.185 105.355)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 14)
+		(uuid "568908c2-371a-4b5c-b76b-7c7099252dc8")
+	)
+	(segment
+		(start 114.675 105.115)
+		(end 115.945 105.115)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 14)
+		(uuid "5e3050b5-589f-4cb8-8803-be6139cfcac7")
+	)
+	(segment
+		(start 107.295 97.735)
+		(end 114.675 105.115)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 14)
+		(uuid "a6ba0940-e131-487a-a38c-8b1c45966433")
+	)
+	(segment
+		(start 84.45275 124.405)
+		(end 86.947 121.91075)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 15)
+		(uuid "1441f3e6-6fbc-4c6d-a8b9-61d1015c6424")
+	)
+	(segment
+		(start 86.947 121.91075)
+		(end 86.947 113.003)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 15)
+		(uuid "18ba2773-7aba-4004-9986-e92e09a4d324")
+	)
+	(segment
+		(start 86.947 113.003)
+		(end 92.055 107.895)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 15)
+		(uuid "82765dd6-1ff5-45ff-a954-a94cbdd03760")
+	)
+	(segment
+		(start 78.085 124.405)
+		(end 84.45275 124.405)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 15)
+		(uuid "e500f517-15f4-42ad-b2f8-035f0544b3f9")
+	)
+	(segment
+		(start 109.96575 124.292)
+		(end 109.96575 110.56575)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 16)
+		(uuid "437a96c2-64e7-4e3a-ad6c-53c1064b1581")
+	)
+	(segment
+		(start 109.96575 110.56575)
+		(end 107.295 107.895)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 16)
+		(uuid "4aa9eb76-24b4-4abf-b1e1-539b38ebb545")
+	)
+	(segment
+		(start 109.172 125.08575)
+		(end 109.96575 124.292)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 16)
+		(uuid "96df0f83-9f5f-49e7-ae1b-33e5797ff856")
+	)
+	(segment
+		(start 97.81575 125.08575)
+		(end 109.172 125.08575)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 16)
+		(uuid "c3591c2e-10e3-48b1-b763-cd6b43402e80")
+	)
+	(segment
+		(start 97.135 124.405)
+		(end 97.81575 125.08575)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 16)
+		(uuid "da2d311e-b513-4658-952e-66b45f02ea55")
+	)
+	(segment
+		(start 112.347 105.327)
+		(end 107.295 100.275)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 17)
+		(uuid "2b798827-a882-45f7-8835-f3d428776e47")
+	)
+	(segment
+		(start 112.347 120.567)
+		(end 112.347 105.327)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 17)
+		(uuid "3eaaa041-9f16-4bd6-8144-02121278b49c")
+	)
+	(segment
+		(start 116.185 124.405)
+		(end 112.347 120.567)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 17)
+		(uuid "94bbf75e-276b-417c-bdee-f3220ccd0137")
+	)
+	(segment
+		(start 88.5345 113.9555)
+		(end 92.055 110.435)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 18)
+		(uuid "05de53d0-4259-428d-9c7b-d270a1297bee")
+	)
+	(segment
+		(start 88.5345 139.37325)
+		(end 88.5345 113.9555)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 18)
+		(uuid "11175539-a9f6-4ff7-91b4-97ebe7454968")
+	)
+	(segment
+		(start 84.45275 143.455)
+		(end 88.5345 139.37325)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 18)
+		(uuid "dd3de4db-f240-4bf6-acd7-6faf2f47cbd1")
+	)
+	(segment
+		(start 78.085 143.455)
+		(end 84.45275 143.455)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 18)
+		(uuid "f145aecd-d9ff-479c-8abb-ef92716afb5a")
+	)
+	(segment
+		(start 109.85275 143.455)
+		(end 110.7595 142.54825)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 19)
+		(uuid "26681251-c748-4011-86b5-6322a3741ca5")
+	)
+	(segment
+		(start 110.7595 142.54825)
+		(end 110.7595 108.8195)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 19)
+		(uuid "5bb89c49-569e-41c2-b3b7-4ca14d68b662")
+	)
+	(segment
+		(start 97.135 143.455)
+		(end 109.85275 143.455)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 19)
+		(uuid "82f85b3d-ab50-4de2-ac67-6119bf1e5ce0")
+	)
+	(segment
+		(start 110.7595 108.8195)
+		(end 107.295 105.355)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 19)
+		(uuid "93f8f723-307f-4cef-8a8c-1afe409168d4")
+	)
+	(segment
+		(start 111.55325 142.54825)
+		(end 111.55325 107.07325)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 20)
+		(uuid "0241ef1c-1b95-435b-9b2a-ee3371aff6f1")
+	)
+	(segment
+		(start 111.55325 107.07325)
+		(end 107.295 102.815)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 20)
+		(uuid "30c07386-d375-4040-90ac-82b3c3cd403f")
+	)
+	(segment
+		(start 116.185 143.455)
+		(end 112.46 143.455)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 20)
+		(uuid "6666ddde-cc74-452a-bb54-55c7fcafc138")
+	)
+	(segment
+		(start 112.46 143.455)
+		(end 111.55325 142.54825)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 20)
+		(uuid "ca577a0c-7c1e-4291-a2de-e81e3b1c3306")
 	)
 	(embedded_fonts no)
 )
